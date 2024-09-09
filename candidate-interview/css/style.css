@@ -1,0 +1,161 @@
+#startRecording, #stopRecording {padding: 10px 20px; margin: 10px; font-size: 16px; background-color: #000; color: #fff; }
+
+.stickySidBar{display: none; }
+
+#recordedVideo {display: block; margin: 20px 0; width: 100% !important; }
+
+#dynamicForm {width: 100%; margin: 0px; }
+
+#dynamicForm label {display: block; }
+
+#dynamicForm input, #dynamicForm textarea, #dynamicForm select {border: 1px solid #ccc; margin-top: 5px !important; border-radius: 10px; }
+
+#dynamicForm .error {color: #ff0000b8; font-size: 0.9em; }
+
+#dynamicForm button {margin-top: 10px; padding: 10px 20px; background-color: #220355; color: white; border: none; cursor: pointer; border-radius: 10px; }
+
+#dynamicForm button:hover {background-color: #ddb400; }
+
+.submit-button {margin-top: 20px !important; }
+
+.next-btn {float: right; }
+
+#cameraView {width: 50%; position: fixed; display: block !important; }
+
+.intervewMain {display: flex; }
+
+.interSection {width: 100% !important; }
+
+.stickySidBar {width: 100%; position: relative; }
+
+div#recordingForm {width: 100%; padding-right: 15px; margin-top: 20px; }
+
+.question {padding: 10px 0px; }
+
+.question div {display: flex; }
+
+.question div input[type="radio"] {width: 10% !important; }
+
+.question div label {width: 90% !important; margin: 0px !important; }
+
+.saveANS {border: 1px solid; text-align: center; padding: 10px; margin-top: 15px; }
+
+.error {color: red; }
+
+input.error, select.error, textarea.error {border: 1px solid red; }
+
+.custom-alert {position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(0, 0, 0, 0.8); color: red; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); z-index: 1000; }
+
+.alter-in {text-align: center; }
+
+.custom-alert h4 {margin-bottom: 20px; font-size: 18px; }
+
+.successMSG {color : green; font-size: 20px; text-align: center; margin-top: 10px; }
+
+#saveAns:hover {cursor: pointer; }
+
+button#getStarted {margin-left: 15px; }
+
+/* Basic button styling */
+.animatedButton {display: inline-block; padding: 10px 28px 12px 28px !important; font-size: 16px; color: #fff; background-color: #007bff; border: none; border-radius: 30px; cursor: pointer; transition: transform 0.2s ease; }
+
+@keyframes pulse {0% {background-color: #007bff; transform: scale(1); } 50% {background-color: #0056b3; transform: scale(1.1); } 100% {background-color: #007bff; transform: scale(1); } }
+
+.animatedButton {animation: pulse 2s infinite; }
+
+.activeSRec {display: none !important; }
+
+.activeSR {display: block !important; }
+
+
+/* 31/7/2024 */
+.cmn-field {border: 1px solid #ccc; border-radius: 10px; padding: 10px !important; margin: 8px 0px 12px !important; width: 100% !important; }
+
+#message {width: 100% !important; }
+
+.cmn-field:focus {border: 1px solid #210353 !important; }
+
+.cmn-field:focus-visible {border: 1px solid #210353 !important; }
+
+.next-btn {border: 1px solid #210353 !important; padding: 10px 50px !important; border-radius: 10px; background-color: #fff !important; margin: 25px 0px !important; color: #210353 !important; }
+
+.next-btn:hover {border: 1px solid #210353 !important; padding: 10px 50px !important; background-color: #210353 !important; color: #fff !important; }
+
+.main-heading strong {font-size: 36px; font-weight: 600; color: #210353; }
+
+.main-description {font-size: 16px !important; font-weight: 400; color: #555; }
+
+.main-btn {background-color: #1b1154 !important; }
+
+.saveSubmit-btn {gap: 15px; justify-content: start; align-items: center; margin: 25px 0px; }
+
+.saveSubmit-btn .saveANS {border: 1px solid #210353 !important; padding: 10px 25px !important; border-radius: 10px; width: 30%; background-color: #fff !important; color: #210353 !important; }
+
+.saveSubmit-btn .submit-button {border: 3px solid #210353 !important; padding: 10px 25px !important; width: 165px !important; border-radius: 10px; background-color: #210353 !important; color: #fff !important; }
+
+input#submitAnswers {width: 20% !important; margin: 15px 0px 0px !important; }
+
+.question-item {display: flex; }
+
+.next-question {margin-top: 10px; }
+
+.qst-option {display: flex; margin: 0px; align-items: center; }
+
+.savedSubmit {display: flex !important; }
+
+.question-item label {margin-right: 15px; }
+
+.score_btn{display: none; }
+
+#overlay{position: fixed; top: 0; z-index: 100; width: 100%; height:100%; display: none; background: rgba(0,0,0,0.6); left: 0; }
+
+.cv-spinner {height: 100%; display: flex; justify-content: center; align-items: center; }
+
+.spinner {width: 40px; height: 40px; border: 4px #ddd solid; border-top: 4px #2e93e6 solid; border-radius: 50%; animation: sp-anime 0.8s infinite linear; }
+
+@keyframes sp-anime {100% {transform: rotate(360deg); } }
+
+.btn-get-started {color: #fff; background: #47b2e4 !important; font-weight: 500; font-size: 15px; letter-spacing: 1px; display: inline-block; padding: 10px 28px 12px 28px; border-radius: 50px; transition: 0.5s; }
+
+.modal {display: none; position: fixed; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); }
+
+.modal-content {background-color: #fefefe; color: #000; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; }
+
+.close {color: #aaa; float: right; font-size: 28px; font-weight: bold; }
+
+.close:hover, .close:focus {color: black; text-decoration: none; cursor: pointer; }
+
+#popupModal p {color: #000; }
+
+.modal-content {background-color: #fefefe; color: #000; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; position: fixed; top: -20%; left: 10%; height: 87vh; overflow-y: auto; }
+
+/*.interviewInner {
+width: 900px !important;
+}*/
+
+.interSection .main-btn {display: flex; justify-content: center !important; margin: auto !important; }
+
+.next-question {float: right; }
+
+input[type=radio]:after {left: 6px !important; top: 6px !important; }
+
+.alert.alert-success {margin-top: 80px; }
+
+#dynamicForm .question-item.question-1 label:first-child {display: contents; font-weight: 700; }
+
+.question-item.question-1 {display: flex; gap: 10px; }
+
+.qst-option label {margin-bottom: 0px !important; }
+
+.animatedButton.activeSR{margin: auto !important; }
+
+
+/*************************************************/
+
+@media (max-width: 1366px) {
+
+    .termsandcondition .modal-content {top: 0% !important; height: 50vh !important; }
+
+    .hero {min-height: 50vh !important; }
+
+}

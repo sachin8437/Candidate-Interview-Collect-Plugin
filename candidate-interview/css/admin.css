@@ -1,0 +1,366 @@
+.wrap {
+    margin: 10px 20px;
+}
+
+table#listOfCandidate {
+    border: 1px solid;
+}
+
+#listOfCandidate tr, #listOfCandidate th, #listOfCandidate td {
+    border: 1px solid #000 !important;
+}
+
+td.dt-type-numeric, th.dt-type-numeric { 
+    display: flex !important;
+    
+}
+ 
+.form-section {
+    margin-bottom: 20px;
+}
+.question-options {
+    margin-bottom: 10px;
+}
+.question-option {
+    margin-bottom: 5px;
+}
+.remove-btn {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+}
+
+.interQuestion h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.interQuestion form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.formFcont {
+    display: flex;
+    width: 100%;
+}
+.interQuestion .form-section {
+    margin: 10px 10px 10px 0px;
+    width: 100%;
+}
+.interQuestion .form-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.interQuestion form input[type="text"], .interQuestion form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.interQuestion form input[type="text"]:focus, .interQuestion form select:focus {
+    border-color: #0073aa;
+    outline: none;
+}
+
+.interQuestion form .question-options {
+    margin: 10px 0;
+}
+
+.interQuestion form .question-option {
+    margin-bottom: 10px;
+}
+
+.interQuestion form button {
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.interQuestion form button:hover {
+    background: #005177;
+}
+
+.interQuestion form .remove-btn {
+    display: inline-block;
+    margin-top: 10px;
+    color: #d9534f;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.interQuestion form .remove-btn:hover {
+    text-decoration: underline;
+}
+
+.interQuestion .success-message {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 4px;
+}
+
+.interQuestion .error-message {
+    color: #dc3545;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+}
+.add_qust {
+    margin: 20px 0px;
+}
+
+textarea { 
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .form-section {
+        margin-bottom: 15px;
+    }
+
+    .interQuestion form input[type="text"], .interQuestion form  select, .interQuestion form  button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+.lists-QA {
+    display: block;
+    border: 1px solid;
+}
+
+.item-list { 
+    padding: 0px 20px;
+}
+
+.item-list  ul {
+    list-style: block;
+    padding-left: 50px;
+}
+
+ 
+.item-list {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.lists-QA button {
+    margin-top: 8px;
+    padding: 10px 25px;
+}
+
+.lists-QA .update-form {
+    margin-top: 8px;
+}
+
+.acc {
+    margin-bottom: 10px;
+  }
+  
+  .acc-head h2 {
+    background-color: rgb(155, 154, 87);
+    padding: 15px 10px;
+    margin: 0px;
+    font-size: 22px;
+    position: relative;
+    cursor: pointer;
+   }
+  
+   .acc-head h2::before,
+   .acc-head h2::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    background-color: #fff;
+    transition: all .3s;
+   }
+  
+   .acc-head h2::before {
+    right: 30px;
+    width: 3px;
+    height: 20px;
+    margin-top: -10px;
+  }
+  
+  .acc-head h2::after {
+    right: 21px;
+    width: 20px;
+    height: 3px;
+    margin-top: -2px;
+  }
+  
+  .acc-head p {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .acc-content { 
+    display: none;
+  }
+          
+  .acc-head.active h2::before {
+      transform: rotate(90deg);
+  }
+  .all-questions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    width: 100%;
+}
+
+.hidden-question {
+    display: none;
+}
+
+button.load-more { 
+    margin: 20px;
+    background: blue;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.acc-head h2 {
+    text-transform: capitalize;
+}
+
+.acc-head span.cnd-exp {
+    font-size: 16px;
+}
+
+/******************************/
+
+
+ 
+  
+  
+.listingOfTech.tabs {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+.listingOfTech .tab-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    position: sticky;
+    top: 0; 
+    padding: 1rem;
+  }
+  
+  .listingOfTech .tab-button {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #64748b;
+    text-transform: uppercase;
+  }
+  
+  .listingOfTech .tab-button.active {
+    color: #000;
+  }
+  
+  .listingOfTech .tab-button.active .line {
+    width: 4rem;
+    background-color: #000;
+  }
+  
+  .listingOfTech .tab-button span:not(.line) {
+    line-height: 1rem;
+    font-size: .75rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .listingOfTech .line {
+    height: 1px;
+    width: 2rem;
+    background-color: #64748b;
+    display: block;
+    transition: all 140ms cubic-bezier(.4,0,.2,1);
+  }
+  
+  .listingOfTech .tab-contents {
+    padding: 2rem;
+    width: 85%;
+    color: #000;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .listingOfTech .tab-content {
+    transition: all 400ms cubic-bezier(.4,0,.2,1);
+    opacity: 0;
+    max-height: 0; 
+    overflow: hidden;
+    transform: translateY(20px);
+  }
+  
+  .listingOfTech .tab-content.active {
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-height: fit-content;
+    transition: all 400ms cubic-bezier(.4,0,.2,1);
+    transform: translateY(0px);
+  }
+  
+  .listingOfTech .tab-content p {
+    font-weight: 300;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .tabs {
+      flex-direction: column;
+    }
+    
+    .tab-buttons {
+      width: 100%;
+      height: auto;
+      background-color: rgba(1, 4, 9, 0.75);
+      backdrop-filter: blur(8px);
+    }
+    
+    .tab-contents {
+      width: 100%;
+    }
+  }
+  
